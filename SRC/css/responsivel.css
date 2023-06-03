@@ -1,0 +1,57 @@
+@media (max-width: 1280px){
+     .informacoes .descricao{
+        color: yellowgreen;
+        font-weight: bolder;
+    } 
+
+    body{
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 768px){
+    .informacoes{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+    }
+    .informacoes .logo{
+        max-width: 600px;
+    }
+    
+    .informacoes .descricao{
+        width: 60%;
+        text-align: center;
+    }
+ 
+}
+
+@media (max-width: 500px){
+    .informacoes .logo{
+        max-width: 390px;
+    }
+    .informacoes .descricao{
+        width: 100%;
+    }
+
+    .menu-lateral{
+       position: static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .menu-lateral ul{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+    }
+
+    .conteudo{
+        min-height: 70vh;
+        gap: 50px;
+    }
+
+}
